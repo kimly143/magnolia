@@ -64,7 +64,7 @@ a{
 }
 .pdadd{
 	font-size: 0.8rem;
-	text-align: left;
+	text-align: right;
 }
 .add-on{
 	font-size: 0.8rem;
@@ -79,13 +79,8 @@ a{
 	margin: 0 0 15px 0;
 
 }
-.addOn{
-	width: 30%;
-}
-.kids{
-	text-align: left;
-	padding-right: 20px;
-}
+
+
 
 .waxing{
 	margin: 0 auto;
@@ -94,6 +89,7 @@ a{
 	text-align: center;;
 	justify-content: space-evenly;
 }
+
 .face {
 	text-align: right;
 }
@@ -102,6 +98,19 @@ a{
 	display: flex;
 	flex-direction: column;
 	text-align: right;
+}
+
+.kprice{
+	width: 80%;
+	margin:0 auto;
+	display: flex;
+	justify-content: baseline space-evenly;
+}
+.kids{
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+	flex-grow: 1;
 }
 
 .explaination{
