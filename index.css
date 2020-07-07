@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.header-main-img{
+	height: 10%;
+}
+
+.nails{
+	width: 80%;
+}
+
+.nails-price{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.gelNails{
+	width: 25%;
+	padding: 20px;
+}
+
+.pedimani{
+	/* border: 1px solid #787878; */
+	background-color: #f7f4f4;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.manicure{
+	width: 40%;
+	text-align: right;
+	margin-right: 5%;
+}
+
+.pedi{
+	width: 40%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.add-on{
+	text-align: center;
+	width: 100%;
+}
+.add-on-con{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.addOn{
+	width: 30%;
+}
