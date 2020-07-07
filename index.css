@@ -52,18 +52,23 @@ a{
 }
 
 .manicure{
-	width: 40%;
+	/* width: 40%; */
 	text-align: right;
-	margin-right: 5%;
+	/* margin-right: 5%; */
 }
 
 .pedi{
-	width: 40%;
-	text-align: left;
-	margin-left: 5%;
+	/* width: 40%; */
+	text-align: right;
+	/* margin-left: 5%; */
 }
-
+.pdadd{
+	font-size: 0.8rem;
+	text-align: left;
+}
 .add-on{
+	font-size: 0.8rem;
+
 	text-align: center;
 	width: 100%;
 }
@@ -97,6 +102,15 @@ a{
 	display: flex;
 	flex-direction: column;
 	text-align: right;
+}
+
+.explaination{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.gel{
+	padding: 2%;
 }
 
 
