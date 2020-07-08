@@ -6,13 +6,13 @@ body {
 .navbar {
 	width: 100%;
 	align-items: center;
-	padding: 20px 0 0 4%;
+	/* padding: 20px 0 0 4%; */
 	display: flex;
 }
 
-.logo {
-	max-width: 150px;
-	flex-grow: 2;
+.navbar img {
+	max-height:50px;
+	flex-grow: 1;
 }
 .anchors {
 	width: 100%;
