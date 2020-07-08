@@ -30,9 +30,11 @@ a{
 
 .nails{
 	width: 80%;
+	border: 1px solid black;
 }
 
 .nails-price{
+	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
@@ -66,22 +68,40 @@ a{
 	font-size: 0.8rem;
 	text-align: right;
 }
+
 .add-on{
 	font-size: 0.8rem;
-
 	text-align: center;
 	width: 100%;
 }
-.add-on-con{
-	
-	display: flex;
-	justify-content: space-between;
-	margin: 0 0 15px 0;
 
+
+
+.kprice{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
+.kids{
+	text-align: left;
+	max-width: 30%;
+}
 
+.details{
+	width: 80%;
+}
+.explaination{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.gel{
+	padding: 2%;
+}
 
+/* wax */
 .waxing{
 	margin: 0 auto;
 	width: 70%;
@@ -99,28 +119,4 @@ a{
 	flex-direction: column;
 	text-align: right;
 }
-
-.kprice{
-	width: 80%;
-	margin:0 auto;
-	display: flex;
-	justify-content: baseline space-evenly;
-}
-.kids{
-	border: 1px solid black;
-	text-align: left;
-	padding: 10px;
-	flex-grow: 1;
-}
-
-.explaination{
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-}
-.gel{
-	padding: 2%;
-}
-
-
 
