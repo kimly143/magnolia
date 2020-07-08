@@ -1,7 +1,22 @@
 body {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+}
+.header-main-img {
+	max-height: 10%;
+}
+.main-container {
+	width: 100%;
 }
 .navbar {
 	width: 100%;
@@ -10,44 +25,52 @@ body {
 	display: flex;
 }
 
-.navbar img {
-	max-height:50px;
-	flex-grow: 1;
+.navbar {
+	max-height: 50px;
+	justify-content: space-around;
+	margin-bottom: 1%;
 }
 .anchors {
-	width: 100%;
-	height: 50px;
+	width: 80%;
 	display: flex;
 	justify-content: space-between;
-	flex-grow: 2;
+	justify-items: baseline;
+	color: #a56359;
 }
-
+.navlogo {
+	max-width: 150px;
+}
+.navAdd {
+	text-align: left;
+	/* font-size: 0.8rem; */
+	padding-top: 2.5%;
+	color: #a56359;
+}
 a {
-	flex-grow: 1;
 	text-decoration: none;
-}
-.header-main-img {
-	height: 10%;
+	padding-top: 2.5%;
+	color: #a56359;
 }
 
 .nails {
-	width: 80%;
+	width: 100%;
 }
 
 .nails-price {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .gelNails {
 	width: 25%;
-	/* padding: 20px; */
-	text-align: center;
+	text-align: left;
 }
 
 .pedimani {
-	background-color: #f7f4f4;
+	background-color: #efeded;
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
@@ -66,7 +89,7 @@ a {
 }
 .pdadd {
 	font-size: 0.8rem;
-	text-align: left;
+	text-align: right;
 }
 
 .add-on {
@@ -93,7 +116,7 @@ a {
 	margin: 0 auto;
 	text-align: center;
 	justify-content: stretch;
-	background-color: #f7f4f4;
+	background-color: #efeded;
 	padding-top: 10px;
 }
 .waxprice {
@@ -113,17 +136,16 @@ a {
 
 /* after price list */
 .details {
-	width: 80%;
+	width: 100%;
 }
 .explaination {
 	display: flex;
-	justify-content: space-between;
 }
 .gel {
 	padding: 2% 4%;
 }
-.ex{
-	width: 35vw;
+.ex {
+	width: 40vw;
 }
 /* pedimanidetail */
 /* .imgOverlay{
@@ -135,20 +157,45 @@ a {
 	left: 0;
 	right:0;
 } */
-.voesh{
+.voesh {
 	width: 100%;
 }
-.pedimaniDetail{
+.pedimaniDetail {
 	display: flex;
-	padding: 5%;
+	padding: 1% 5%;
 }
 
-.pddetails{
+.pddetails {
 	flex-grow: 1;
 	margin: 2%;
-	text-shadow:1px 1px white;
+	text-shadow: 1px 1px white;
 }
 
+.contact {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	padding: 1% 4% 0 4%;
+}
+
+.hours{
+	display: flex;
+	justify-content: space-between;
+}
+.hoursR{
+	text-align: right;;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	background: #c0c0c0;
+	opacity: 0.5;
+	text-align: center;
+	padding-top: 2%;
+	margin-bottom: 0;
+}
 
 /* responsive design
 phone size */
