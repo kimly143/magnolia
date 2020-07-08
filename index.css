@@ -162,20 +162,19 @@ a {
 }
 .pedimaniDetail {
 	display: flex;
-	padding: 1% 5%;
+	background: #efeded;
 }
 
-.pddetails {
-	flex-grow: 1;
-	margin: 2%;
+.pddetails{
+	padding:2% 4% ;
 	text-shadow: 1px 1px white;
 }
 
 .contact {
 	display: flex;
 	margin: 0 auto;
-	justify-content: space-around;
-	padding: 1% 4% 0 4%;
+	justify-content: space-between;
+	padding: 2% 4%;
 }
 
 .hours{
