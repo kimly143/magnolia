@@ -3,120 +3,191 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.navbar{
+.navbar {
 	width: 100%;
 	align-items: center;
-	padding: 15px 0 5px 15px;
+	padding: 20px 0 0 4%;
+	display: flex;
 }
 
-.logo{
-	font-weight: bold;
+.logo {
+	max-width: 150px;
 	flex-grow: 2;
-
 }
-.anchors{
+.anchors {
 	width: 100%;
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
+	flex-grow: 2;
 }
 
-a{
+a {
 	flex-grow: 1;
+	text-decoration: none;
 }
-.header-main-img{
+.header-main-img {
 	height: 10%;
 }
 
-.nails{
+.nails {
 	width: 80%;
-	border: 1px solid black;
 }
 
-.nails-price{
-	border: 1px solid red;
+.nails-price {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
 }
 
-.gelNails{
+.gelNails {
 	width: 25%;
-	padding: 20px;
+	/* padding: 20px; */
 	text-align: center;
 }
 
-.pedimani{
+.pedimani {
 	background-color: #f7f4f4;
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.manicure{
+.manicure {
 	/* width: 40%; */
 	text-align: right;
 	/* margin-right: 5%; */
 }
 
-.pedi{
+.pedi {
 	/* width: 40%; */
 	text-align: right;
 	/* margin-left: 5%; */
 }
-.pdadd{
+.pdadd {
 	font-size: 0.8rem;
-	text-align: right;
-}
-
-.add-on{
-	font-size: 0.8rem;
-	text-align: center;
-	width: 100%;
-}
-
-
-
-.kprice{
-	width: 100%;
-	text-align: center;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.kids{
 	text-align: left;
-	max-width: 30%;
 }
 
-.details{
-	width: 80%;
-}
-.explaination{
+.add-on {
+	font-size: 0.8rem;
+	text-align: center;
 	width: 100%;
-	display: flex;
-	justify-content: space-around;
-}
-.gel{
-	padding: 2%;
 }
 
-/* wax */
-.waxing{
+.kprice {
+	width: 90%;
 	margin: 0 auto;
-	width: 70%;
 	display: flex;
-	text-align: center;;
+	/* flex-wrap: nowrap; */
 	justify-content: space-evenly;
 }
 
+.kids {
+	flex-grow: 1;
+	text-align: left;
+}
+
+/* wax */
+.waxing {
+	margin: 0 auto;
+	text-align: center;
+	justify-content: stretch;
+	background-color: #f7f4f4;
+	padding-top: 10px;
+}
+.waxprice {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
 .face {
 	text-align: right;
 }
 
-.body1{
+.body1 {
 	display: flex;
 	flex-direction: column;
-	text-align: right;
+	text-align: left;
 }
 
+/* after price list */
+.details {
+	width: 80%;
+}
+.explaination {
+	display: flex;
+	justify-content: space-between;
+}
+.gel {
+	padding: 2% 4%;
+}
+.ex{
+	width: 35vw;
+}
+/* pedimanidetail */
+/* .imgOverlay{
+	background: #787878;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+} */
+.voesh{
+	width: 100%;
+}
+.pedimaniDetail{
+	display: flex;
+	padding: 5%;
+}
+
+.pddetails{
+	flex-grow: 1;
+	margin: 2%;
+	text-shadow:1px 1px white;
+}
+
+
+/* responsive design
+phone size */
+@media only screen and (max-width: 600px) {
+	.navbar,
+	.nails-price,
+	.pedimani,
+	.waxing,
+	.kprice,
+	.explaination,
+	.details,
+	.pedimaniDetail {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between stretch;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0 auto;
+		font-size: 0.8rem;
+	}
+	.gelNails,
+	.manicure,
+	.pedi,
+	.face,
+	.body1,
+	.pdadd,
+	.kids,
+	.gel,
+	.pddetails {
+		width: 90%;
+		text-align: left;
+		padding: 10px;
+	}
+	a {
+		width: 80%;
+		text-align: center;
+	}
+	.ex,
+	.ahome {
+		display: none;
+	}
+}
