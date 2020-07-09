@@ -22,7 +22,7 @@ body {
 .navbar {
 	width: 100%;
 	align-items: center;
-	/* padding: 20px 0 0 4%; */
+	padding: 20px 0 0 4%;
 	display: flex;
 }
 
@@ -223,14 +223,14 @@ a {
 .herbal{
 	font-size: 2rem;
 	color: #787878;
-	font-weight: 600;
+	font-weight: 500;
+	font-family: 'Fahkwang', sans-serif;
+	margin: -20px auto;
 }
-
 .contact {
 	display: flex;
 	margin: 0 auto;
-	justify-content: space-between;
-	padding: 2% 4%;
+	justify-content: space-around;
 }
 
 .hours{
@@ -266,7 +266,8 @@ phone size */
 	.kprice,
 	.explaination,
 	.details,
-	.pedimaniDetail {
+	.pedimaniDetail,
+	.contact {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between stretch;
@@ -283,7 +284,8 @@ phone size */
 	.pdadd,
 	.kids,
 	.gel,
-	.pddetails {
+	.pddetails,
+	.hours {
 		width: 90%;
 		text-align: left;
 		padding: 10px;
@@ -293,7 +295,12 @@ phone size */
 		text-align: center;
 	}
 	.ex,
-	.ahome {
+	.ahome,
+	.bn{
 		display: none;
+	}
+	.hoursR{
+		width: 80%;
+		text-align: justify;
 	}
 }
