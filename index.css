@@ -188,6 +188,44 @@ a {
 	text-shadow: 1px 1px white;
 }
 
+.voe{
+	display: flex;
+	flex-direction: column;
+	padding: 2% 4%;
+	text-align: center;;
+}
+
+.svoesh{
+	width: 250px;
+	margin: 1% auto;
+}
+
+.vd{
+	display: flex;
+	justify-content: space-between;
+}
+
+.v1{
+	padding-right: 2%;
+	text-align: right;
+	width: 48%;
+}
+
+.v2{
+	text-align: left;
+	width: 48%;
+}
+.v3{
+	text-align: center;
+	width: 100%;
+}
+
+.herbal{
+	font-size: 2rem;
+	color: #787878;
+	font-weight: 600;
+}
+
 .contact {
 	display: flex;
 	margin: 0 auto;
@@ -200,8 +238,12 @@ a {
 	justify-content: space-between;
 }
 .hoursR{
-	text-align: right;;
+	text-align: right;
+	margin-right: 1%;
 }
+
+
+
 
 .footer {
 	height: 50px;
