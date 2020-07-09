@@ -5,52 +5,64 @@ body {
 	justify-content: center;
 	width: 100%;
 	font-family: 'Jost', sans-serif;
+	margin-top: 0;
 }
 
 .header {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
+	flex-wrap: wrap;
 	width: 100%;
 }
 .header-main-img {
-	max-height: 10%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin:auto;
+	display:block
 }
 .main-container {
 	width: 100%;
 }
 .navbar {
-	width: 100%;
-	align-items: center;
-	padding: 20px 0 0 4%;
 	display: flex;
+	align-items: stretch;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background: #efeded;
 }
 
-.navbar {
-	max-height: 50px;
-	justify-content: space-around;
-	margin-bottom: 1%;
-}
 .anchors {
-	width: 80%;
 	display: flex;
-	justify-content: space-between;
-	justify-items: baseline;
+	justify-content: space-evenly;
+	flex-grow: 2;
 	color: #a56359;
+	font-weight: 500;
+	align-items: center;
 }
 .navlogo {
-	max-width: 150px;
+	height: 50px;
+	margin-left: 8%;
 }
-.navAdd {
+
+.navlogo img {
+	height: 50px;
+	padding: 0 10px;
+}
+
+/* .navAdd {
 	text-align: left;
-	/* font-size: 0.8rem; */
-	padding-top: 2.5%;
+	padding-top: 10%;
 	color: #a56359;
-}
+} */
 a {
 	text-decoration: none;
-	padding-top: 2.5%;
+	padding-top: 2%;
 	color: #a56359;
+	flex-grow: 1;
+}
+.ahome {
+	flex-grow: 1;
 }
 
 .nails {
