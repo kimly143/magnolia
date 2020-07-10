@@ -1,0 +1,318 @@
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+	margin-top: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.header-main-img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin:auto;
+	display:block
+}
+.main-container {
+	width: 100%;
+}
+.navbar {
+	display: flex;
+	align-items: stretch;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background: #efeded;
+}
+
+.anchors {
+	display: flex;
+	justify-content: space-evenly;
+	flex-grow: 2;
+	color: #a56359;
+	font-weight: 500;
+	align-items: center;
+}
+.navlogo {
+	height: 50px;
+	margin-left: 8%;
+}
+
+.navlogo img {
+	height: 50px;
+	padding: 0 10px;
+}
+
+/* .navAdd {
+	text-align: left;
+	padding-top: 10%;
+	color: #a56359;
+} */
+a {
+	text-decoration: none;
+	padding-top: 2%;
+	color: #a56359;
+	flex-grow: 1;
+}
+.ahome {
+	flex-grow: 1;
+}
+
+.nails {
+	width: 100%;
+}
+
+.nails-price {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 80%;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.gelNails {
+	width: 25%;
+	text-align: left;
+}
+
+.pedimani {
+	background-color: #efeded;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.manicure {
+	/* width: 40%; */
+	text-align: right;
+	/* margin-right: 5%; */
+}
+
+.pedi {
+	/* width: 40%; */
+	text-align: right;
+	/* margin-left: 5%; */
+}
+.pdadd {
+	font-size: 0.8rem;
+	text-align: right;
+}
+
+.add-on {
+	font-size: 0.8rem;
+	text-align: center;
+	width: 100%;
+}
+
+.kprice {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	/* flex-wrap: nowrap; */
+	justify-content: space-evenly;
+}
+
+.kids {
+	flex-grow: 1;
+	text-align: left;
+}
+
+/* wax */
+.waxing {
+	margin: 0 auto;
+	text-align: center;
+	justify-content: stretch;
+	background-color: #efeded;
+	padding-top: 10px;
+}
+.waxprice {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.face{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.f{
+	display: flex;
+}
+.f1{
+	text-align: left;
+	padding: 0 20px 0 0;
+}
+.f2{
+	text-align: left;
+	padding: 0 0 0 20px;
+}
+.face {
+	text-align: right;
+}
+
+.body1 {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+/* after price list */
+.details {
+	width: 100%;
+}
+.explaination {
+	display: flex;
+}
+.gel {
+	padding: 2% 4%;
+}
+.ex {
+	width: 40vw;
+}
+/* pedimanidetail */
+/* .imgOverlay{
+	background: #787878;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+} */
+.voesh {
+	width: 100%;
+}
+.pedimaniDetail {
+	display: flex;
+	background: #efeded;
+}
+
+.pddetails{
+	padding:2% 4% ;
+	text-shadow: 1px 1px white;
+}
+
+.voe{
+	display: flex;
+	flex-direction: column;
+	padding: 2% 4%;
+	text-align: center;;
+}
+
+.svoesh{
+	width: 250px;
+	margin: 1% auto;
+}
+
+.vd{
+	display: flex;
+	justify-content: space-between;
+}
+
+.v1{
+	padding-right: 2%;
+	text-align: right;
+	width: 48%;
+}
+
+.v2{
+	text-align: left;
+	width: 48%;
+}
+.v3{
+	text-align: center;
+	width: 100%;
+}
+
+.herbal{
+	font-size: 2rem;
+	color: #787878;
+	font-weight: 500;
+	font-family: 'Fahkwang', sans-serif;
+	margin: -20px auto;
+}
+.contact {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+.hours{
+	display: flex;
+	justify-content: space-between;
+}
+.hoursR{
+	text-align: right;
+	margin-right: 1%;
+}
+
+
+
+
+.footer {
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	background: #c0c0c0;
+	opacity: 0.5;
+	text-align: center;
+	padding-top: 2%;
+	margin-bottom: 0;
+}
+
+/* responsive design
+phone size */
+@media only screen and (max-width: 600px) {
+	.navbar,
+	.nails-price,
+	.pedimani,
+	.waxing,
+	.kprice,
+	.explaination,
+	.details,
+	.pedimaniDetail,
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between stretch;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0 auto;
+		font-size: 0.8rem;
+	}
+	.gelNails,
+	.manicure,
+	.pedi,
+	.face,
+	.body1,
+	.pdadd,
+	.kids,
+	.gel,
+	.pddetails,
+	.hours {
+		width: 90%;
+		text-align: left;
+		padding: 10px;
+	}
+	a {
+		width: 80%;
+		text-align: center;
+	}
+	.ex,
+	.ahome,
+	.bn{
+		display: none;
+	}
+	.hoursR{
+		width: 80%;
+		text-align: justify;
+	}
+}
